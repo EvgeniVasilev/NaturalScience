@@ -2,6 +2,6 @@
 schollarApp.directive('chemistry', function () {
 	return {
 		restrict: 'EA',
-		templateUrl: '../templates/chemistry_nav.html'
+		templateUrl: './templates/chemistry_nav.html'
 	}
 });
