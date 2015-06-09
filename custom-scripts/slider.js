@@ -1,5 +1,4 @@
-var sliderInt = 1,
-	sliderNext = 2;
+var sliderInt = 1,sliderNext = 2;
 $(document).ready(function () {
 	'use strict';
 	$("#slider > div#1").fadeIn(350);
