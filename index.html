@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="schollarApp">
+
+<head>
+	<title>Index</title>
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+	<div ng-controller="mainCtrl">
+		<div class="window" ng-view=""></div>
+	</div>
+	<footer></footer>
+	<!--scripts-->
+	<script src="./bower_components/angular/angular.js"></script>
+	<script src="./bower_components/angular-route/angular-route.js"></script>
+	<!--app-->
+	<script src="./app/app.js"></script>
+	<!--controlles-->
+	<script src="./controllers/scollar_main_ctrl.js"></script>
+	<!--routes-->
+	<script src="./routes/router.js"></script>
+	<!--directives-->
+	<script src="./directives/brand_header.js"></script>
+	<script src="./directives/math.js"></script>
+	<script src="./directives/it.js"></script>
+	<script src="./directives/chemistry.js"></script>
+	<script src="./directives/physics.js"></script>
+	<script src="./directives/footer.js"></script>
+	<!--slider-->
+	<script src="./custom-scripts/slider.js"></script>
+	<!--scripts-->
+</body>
+
+</html>
